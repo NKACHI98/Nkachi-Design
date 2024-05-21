@@ -99,46 +99,60 @@
                     <div class="column xl-6 md-12">
                           
                         <h1>Logos</h1>
-                        <p>I express my eclectic and original design style through my logo designs. 
-                        <br>I care about grasping the company's vision and creating a logo that reflects it. <br></p>
+                        <h2>Eclectic and original design 
+                            style to embody your brand's vision. </h2>
                         
                     </div> <!-- end clients-list -->
                     <div class="row s-clients__content-block width-sixteen-col">
                         <div class="column xl-2"></div>
-
-                    
-                    
+                            <div class="gallery"> 
+                                <div class="image">
+                                  <img src="images/logos/AST-Global-Logo.jpg" alt="Image 1" onclick="openModal('images/logos/AST-Global-Logo.jpg', 'AST Global Logo, 2016')">
+                                </div>
+                                <div class="image">
+                                  <img src="images/logos/JPEG-Radio.jpg" alt="Image 2" onclick="openModal('images/logos/JPEG-Radio.jpg', 'JPEG Radio Logo, 2023')">
+                                </div>
+                                <div class="image">
+                                  <img src="images/logos/Melasonik-Logo.jpg" alt="Image 3" onclick="openModal('images/logos/Melasonik-Logo.jpg', 'Melasonik Logo, 2022')">
+                                </div>
+                                <div class="image">
+                                  <img src="images/logos/Nkachi-Design.jpg" alt="Image 4" onclick="openModal('images/logos/Nkachi-Design.jpg', 'Nkachi Design, 2023')">
+                                </div>
+                                <div class="image">
+                                  <img src="images/logos/Ekukhanyeni-Spirit-Logo.jpg" alt="Image 5" onclick="openModal('images/logos/Ekukhanyeni-Spirit-Logo.jpg', 'Ekukhanyeni Spirit Logo, 2022')">
+                                </div>
+                                <div class="image">
+                                  <img src="images/logos/ZASA Women Logo.jpg" alt="Image 6" onclick="openModal('images/logos/ZASA Women Logo.jpg', 'ZASA Women Logo, 2024')">
+                                </div>
+                                <div class="image">
+                                    <img src="images/logos/Twikatane Ladies.jpg" alt="Image 7" onclick="openModal('images/logos/Twikatane Ladies.jpg', 'Twikatane Ladies Logo, 2024')">
+                              </div>
+                              
+                              <div id="modal" class="modal">
+                                <span class="close" onclick="closeModal()">×</span>
+                                <img id="modal-image" src="" alt="Modal Image">
+                                <div id="caption" class="caption"></div>
+                              </div>
                         
-                            <div class="clients-list-ALT">                            
-                                <div class="clients-list__item-ALT">
-                                    <div class="clients-list__item a"></div>
-                                
-                                        <img src="images/logos/AST-Global-Logo.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="clients-list__item-ALT">
-                                  
-                                        <img src="images/logos/JPEG-Radio.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="clients-list__item-ALT">
-                                    
-                                        <img src="images/logos/Melasonik-Logo.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="clients-list__item-ALT">
-                                   
-                                        <img src="images/logos/Nkachi-Design.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="clients-list__item-ALT">
-                                  
-                                        <img src="images/logos/Ekukhanyeni-Spirit-Logo.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="clients-list__item-ALT">
-                               
-                                        <img src="images/logos/ZASA Women Logo.jpg" alt="">
+                        
+                              <script>
+                                function openModal(imageSrc, imageAlt) {
+                                const modal = document.getElementById('modal');
+                                const modalImg = document.getElementById('modal-image');
+                                const captionText = document.getElementById('caption');
+                        
+                                modal.style.display = 'block';
+                                modalImg.src = imageSrc;
+                                modalImg.alt = imageAlt;
+                                captionText.innerHTML = imageAlt;
+                                }
+                        
+                                function closeModal() {
+                                const modal = document.getElementById('modal');
+                                modal.style.display = 'none';
+                                }
+                        
+                              </script> 
                                     </a>
                                 </div> 
                             </a>
@@ -154,8 +168,8 @@
                           
             <div class="column xl-6 md-12">
                                 <h1>Marketing Materials</h1>
-                                <p>My marketing material is designed with a professional touch, 
-                                    using subtle layering to create a refined and elegant look with a high-quality finish.</p>
+                                <h2>Designed with a professional touch, 
+                                    using subtle layering to create a refined and elegant look.</h2>
                                
                             </div> <!-- end clients-list -->
                         
@@ -164,46 +178,24 @@
 
                     <div class="clients-list-ALT">                            
                         <div class="clients-list__item-ALT">
-                         
-                                <img src="images/Marketing Material/AST-Global-Board.jpg" alt="">
+                            <div class="gallery"> 
+                                <div class="image">
+                                  <img src="images/Marketing Material/AST-Global-Board.jpg" alt="Image 1" onclick="openModal('images/Marketing Material/AST-Global-Board.jpg', 'AST Global Billboard, 2022')">
+                                </div>
+                                <div class="image">
+                                  <img src="images/Marketing Material/AST Global (Fire Evacuation Plan).jpg" alt="Image 2" onclick="openModal('images/Marketing Material/AST Global (Fire Evacuation Plan).jpg', 'AST Global Fire Evacuation Plan, 2018')">
+                                </div>
+                                <div class="image">
+                                  <img src="images/Marketing Material/AST-Global-Special-Offer.jpg" alt="Image 3" onclick="openModal('images/Marketing Material/AST-Global-Special-Offer.jpg', 'AST Global 3rd Quarter Poster, 2020')">
+                                </div>
+                                <div class="image">
+                                  <img src="images/Marketing Material/ZASA-Poster-Event.jpg" alt="Image 4" onclick="openModal('images/Marketing Material/ZASA-Poster-Event.jpg', 'ZASA Independence Day Poster, 2023')">
+                                </div>
+                                <div class="image">
+                                    <img src="images/Marketing Material/Adobe_Express_20231031_1524190_1.png" alt="Image 5" onclick="openModal('images/Marketing Material/Adobe_Express_20231031_1524190_1.png', 'Stoneridge Estate brochure, 2023')">
+                                </div>
+
                             </a>
-                        </div>
-                        <div class="clients-list__item-ALT">
-                            
-                                <img src="images/Marketing Material/AST Global (Fire Evacuation Plan).jpg" alt="">
-                            </a>
-
-                </div>
-            </div> <!-- end clients-list -->
-
-        </div> <!-- end column -->
-    </div> <!-- end row -->
-    </div> <!-- end row -->
-    <div class="column xl-6 md-12">
-      
-       
-    </div> <!-- end clients-list -->
-
-<div class="row s-clients__content-block width-sixteen-col">
-    <div class="column xl-4"></div>
-
-<div class="clients-list-ALT">                            
-<div class="clients-list__item-ALT">
- 
-    
-    
-        <img src="images/Marketing Material/AST-Global-Special-Offer.jpg" alt="">
-    </a>
-</div>
-<div class="clients-list__item-ALT">
-
-        <img src="images/Marketing Material/ZASA-Poster-Event.jpg" alt="">
-    </a>
-</div>
-<div class="clients-list__item-ALT">
-   
-        <img src="images/Marketing Material/Stoneridge-Billboard.jpg" alt="">
-    </a>
 </div>
 <div class="clients-list__item-ALT">
 </a>
@@ -213,7 +205,52 @@
 </div> <!-- end column -->
 </div> <!-- end row -->
 </div> <!-- end row -->
-  <!-- mp4,webm, and ogg -->
+   
+    
+                
+                                
+                          
+<div class="column xl-6 md-12">
+    <h1>Product Mockups</h1>
+    <h2>Perfect your pitch, 
+        visualize your product offerings for your audience.</h2>
+   
+</div> <!-- end clients-list -->
+
+<div class="row s-clients__content-block width-sixteen-col">
+<div class="column xl-4"></div>
+
+<div class="clients-list-ALT">                            
+<div class="clients-list__item-ALT">
+<div class="gallery"> 
+    <div class="image">
+      <img src="images/Mockups/Banner Mockup.jpg" alt="Image 1" onclick="openModal('Nkachi-Design/images/Mockups/Banner Mockup.jpg', 'Banner Mockup, 2022')">
+    </div>
+    <div class="image">
+      <img src="images/Mockups/Billboard_Mockup.jpg" alt="Image 3" onclick="openModal('images/Mockups/Billboard_Mockup.jpg', 'AST Global Billboard, 2023')">
+    </div>
+    <div class="image">
+      <img src="images/Mockups/Invitation Women's Conference.jpg" alt="Image 4" onclick="openModal('Nkachi-Design/images/Mockups/Invitation Women's Conference.jpg', 'Women's Conference, 2017')">
+    </div>
+    <div class="image">
+        <img src="images/Mockups/Outdoor Street Board.jpg" alt="Image 5" onclick="openModal('images/Mockups/Outdoor Street Board.jpg', 'AST Global Outdoor Board, 2024')">
+    </div>
+    <div class="image">
+        <img src="images/Mockups/Wedding Mockup.jpg" alt="Image 6" onclick="openModal('images/Mockups/Wedding Mockup.jpg', 'Wedding Mockup, 2023')">
+    </div>
+    <div class="image">
+        <img src="images/Mockups/ZASA T-shirt concept model.png" alt="Image 7" onclick="openModal('images/Mockups/ZASA T-shirt concept model.png', 'ZASA Model T-shirt Mockup, 2023')">
+    </div>
+</a>
+</div>
+<div class="clients-list__item-ALT">
+</a>
+</div>
+</div> <!-- end clients-list -->
+
+</div> <!-- end column -->
+</div> <!-- end row -->
+</div> <!-- end row -->
   <section id="clients" class="s-clients"> 
   <div class="section-header grid-section-split__header">
     <div class="text-pretitle">Motion graphics </div>                           
@@ -224,8 +261,6 @@
 
   <div class="row u-add-half-bottom">
     <video width="1818" height="1140" autoplay muted loop src="ZESCO Brand Guidelines Display.mp4"></video>
-
-</div>
     <div class="column xl-6 md-12">
         <p>          Disclaimer:
             The logo design presented here is an original creation and is solely a personal redesign project. 
@@ -235,9 +270,8 @@
        
                    </p>
   
-     </div> <!-- end column -->
-    </div> <!-- end row -->
-    </div> <!-- end row -->
+                   <div class="row u-add-half-bottom">
+                    <video width="1080" height="1080" autoplay muted loop src="Nkachi-Design/Nayoka Naturals Social Media.mp4"></video>
 </div> <!-- end section-header -->          
 
 </section> <!-- s-content-->
@@ -266,7 +300,7 @@
 
         <!-- # footer 
         ================================================== -->
-        <footer class="s-footer">3
+        <footer class="s-footer">
             <div class="row s-footer__content">
                 <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
                     <h3>About Nkachi Design</h3>
