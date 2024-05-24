@@ -2197,6 +2197,7 @@ input[type=button]:hover {
 	border-color    : var(--color-btn-hover);
 	color           : var(--color-btn-hover-text);
 	outline         : 0;
+	scale: 1.05;
 }
 
 /* button primary
@@ -2449,7 +2450,7 @@ td:last-child {
 .pgn .inactive:focus,
 .pgn .inactive:hover {
 	opacity: 0.4;
-	cursor : default;
+	cursor : cell;
 }
 
 .pgn__prev,
